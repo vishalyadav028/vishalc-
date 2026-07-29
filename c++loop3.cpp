@@ -5,11 +5,18 @@ int main(){
     //     cout<<"vishal="<<i<<endl;
     // }
 
+    // int i=1;
+    // while(i<=50){
+    //     cout<<"vishal="<<i<<endl;
+    //     i++;
+    // }
+
     int i=1;
-    while(i<=50){
-        cout<<"vishal="<<i<<endl;
+    do{
+        cout<<"vishal"<<endl;
         i++;
-    }
+    }while(i<=50);
+
     
     return 0;
 }
